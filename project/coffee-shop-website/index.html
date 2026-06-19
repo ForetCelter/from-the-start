@@ -9,9 +9,10 @@
 </head>
 
 <body class="box-border m-0 p-0">
-    <header class="flex items-center justify-between border-b p-2">
+    <header
+        class="flex items-center justify-between px-16 border-b-gray-900 p-2 w-full sticky top-0 z-50 backdrop-blur-md">
         <section>
-            <h1 class="text-lg font-bold">STRKR COFFEE</h1>
+            <h1 class="text-lg tracking-tighter font-bold">STRKR COFFEE</h1>
         </section>
         <nav>
             <ul class="flex gap-3 text-sm">
@@ -27,34 +28,43 @@
     </header>
 
     <main>
-        <article>
-            <section>
-                <div>
-                    <h1>STRKR COFFEE</h1>
+
+        <article class="min-h-screen flex items-center px-12 bg-amber-900">
+            <section class="flex flex-col gap-5">
+                <div class="w-4">
+                    <h1 class="text-6xl font-bold">STRKR COFFEE</h1>
                 </div>
-                <div>
-                    <div></div>
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-0.5  bg-green-500"></div>
                     <p>ROASTED FOR THE STREETS. BREWED FOR THE RESTLESS.</p>
                 </div>
                 <div>
-                    <button>TASTE THE NOISE</button>
+                    <button class="p-3 bg-green-600 tracking-tighter">TASTE THE NOISE</button>
                 </div>
             </section>
         </article>
-        <section>
-            <p>pembatas</p>
+
+        <section class="w-full py-2 bg-green-500">
+            <p>
+                <marquee direction="left" class="outlined" loop="">
+            This text will loop
+                </marquee>
+            </p>
         </section>
-        <article>
-            <section>
-                <div>
-                    <h2> WE DON'T DO WE DO <span>DEFY</span></h2>
+
+        <article class="py-24 px-12 flex gap-72">
+
+            <section class="px-8 flex flex-col gap-8">
+                <div class="w-88 text-6xl tracking-tighter">
+                    <h2> WE DON'T DO WE DO <span class="h-10 bg-green-600 w-10">DEFY</span></h2>
                 </div>
-                <div>
+                <div class="w-96">
                     <p>EST. 2010 - JAKARTA - 5'10'8</p>
                 </div>
             </section>
-            <section>
-                <div>
+
+            <section class="px-14 border-l border-l-green-500 flex flex-col gap-6">
+                <div class="text-justify tracking-tight text-sm">
                     <p>
                         Coffee isn't just a morning ritual; it's the lifeblood of the concrete jungle. We source
                         single-origin beans from high-altitude volcanic soils, roasting them with an unforgiving
@@ -65,10 +75,11 @@
                         mediocrity.
                     </p>
                 </div>
-                <div>
+                <div class="text-2xl -rotate-8">
                     <p>NO RULES JUST ROASTS</p>
                 </div>
             </section>
+
         </article>
         <article>
             <section>
