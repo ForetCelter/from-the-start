@@ -14,9 +14,22 @@
   font-style: normal;
 }
 
+.inter-semibold{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .space-mono-regular {
   font-family: "Space Mono", monospace;
   font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-semibold {
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -44,3 +57,22 @@
   font-style: normal;
 }
 
+.custom-shape-divider-top-1782399394 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1782399394 svg {
+    position: relative;
+    display: block;
+    width: calc(191% + 1.3px);
+    height: 211px;
+}
+
+.custom-shape-divider-top-1782399394 .shape-fill {
+    fill: #FFFFFF;
+}
