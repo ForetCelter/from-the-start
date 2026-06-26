@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
 </head>
 
-<body class="box-border m-0 p-0 inter-regular">
+<body class="box-border m-0 p-0 space-mono-regular">
     <header
         class="flex items-center justify-between px-16 border border-b-white p-2 w-full sticky top-0 z-50 backdrop-blur-md bg-neutral-900">
         <section>
@@ -50,7 +50,7 @@
 
     <main>
 
-        <article class="min-h-screen flex items-center px-16 bg-neutral-900">
+        <article class="hero min-h-screen flex items-center px-16 bg-neutral-900" style=" ">
             <section class="flex flex-col gap-8">
                 <div class="w-12">
                     <h1 class="text-8xl font-bold bebas-neue-regular text-white">STRKR COFFEE</h1>
@@ -60,7 +60,7 @@
                     <p>ROASTED FOR THE STREETS. BREWED FOR THE RESTLESS.</p>
                 </div>
                 <div>
-                    <button class="w-32 h-10 line  bg-lime-400 text-xs tracking-tighter space-mono-regular">TASTE THE
+                    <button class="w-38 h-10 line  bg-lime-400 text-xs tracking-tighter space-mono-regular">TASTE THE
                         NOISE</button>
                 </div>
             </section>
@@ -74,7 +74,7 @@
             </p>
         </section>
 
-        <article class="py-26 px-12 flex gap-72 bg-neutral-900 text-white ">
+        <article class="intro py-26 px-12 flex gap-72 bg-neutral-900 text-white ">
 
             <section class="px-8 flex flex-col gap-10 ">
                 <div class="w-64 text-7xl bebas-neue-regular tracking-tighter">
@@ -104,7 +104,7 @@
 
         </article>
 
-        <div class="bg-neutral-900">
+        <div class="bg-neutral-900 intro-divider">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                 preserveAspectRatio="none">
                 <path
@@ -118,7 +118,7 @@
             <section class="grid grid-cols-3 gap-18 pb-10">
                 <div class="flex flex-col gap-2 justify-center items-center border-r">
                     <h3 class="text-7xl bebas-neue-regular tracking-wide">500</h3>
-                    <p class="text-xs space-mono-regular">CUPS DAILY</p>
+                    <p class="text-xs space-mono-regular">+CUPS DAILY</p>
                 </div>
                 <div class="flex justify-center items-center gap-18">
                     <div class="flex flex-col gap-2 justify-center items-center">
@@ -139,7 +139,7 @@
 
         </article>
 
-        <div class="bg-neutral-900">
+        <div class="menu-divider bg-neutral-900">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                 preserveAspectRatio="none">
                 <path
@@ -148,7 +148,7 @@
             </svg>
         </div>
 
-        <article class="px-20 pb-22 bg-neutral-900">
+        <article class="menu px-20 pb-22 bg-neutral-900">
 
 
             <section class="flex justify-between items-end py-2">
@@ -201,7 +201,7 @@
 
         </article>
 
-        <article class="py-54 flex justify-center items-center bg-[#1A1F0F] static">
+        <article class="quotes py-54 flex justify-center items-center bg-[#1A1F0F] static">
 
             <div class="absolute left-15 -rotate-6 w-72 p-10">
                 <div class="bg-neutral-100 shadow-2xl p-2 py-2 b-1 container flex flex-col justify-start w-52 h-64">
@@ -234,8 +234,8 @@
 
 
     </main>
-    
-    <section class="rotate-180 bg-[#1A1F0F]">
+
+    <section class="footer-divider rotate-180 bg-[#1A1F0F]">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100">
             <path
                 d="M0 0v60c9 0 18-3 25-10 13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s36 14 50 0c13-14 36-14 50 0s37 13 50 0c14-14 37-14 50 0 7 7 16 10 25 10V0H0Z"
@@ -243,32 +243,35 @@
         </svg>
     </section>
 
-    <footer class="flex justify-around items-end py-18 bg-neutral-900">
+    <footer class="flex justify-around items-end py-24 bg-neutral-900 text-neutral-500 space-mono-regular">
 
         <section>
             <div>
-                <h1 class="text-5xl font-bold tracking-tighter py-6">STRKR COFFEE</h1>
+                <h1 class="text-8xl font-bold tracking-tighter py-6 bebas-neue-regular text-lime-400">STRKR COFFEE</h1>
             </div>
-            <div>
+            <div class="text-sm">
                 <p>ALL RIGHTS TO THE STREETS</p>
                 <p>*2026 STRKR COFFEE - URBAN PRESICION</p>
             </div>
         </section>
         <section>
-            <ul>
+            <ul class="text-right text-sm">
                 <li><a href="">TERM</a></li>
                 <li><a href="">PRIVACY</a></li>
                 <li><a href="">WHOLESALE</a></li>
                 <li><a href="">INSTAGRAM</a></li>
             </ul>
         </section>
-        <section>
-            <button class="bg-lime-400 p-2 text-4xl rounded-full">
-                <img src="./component/img/arrow_upward_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="panah">
+        <section class="flex flex-col items-end gap-4">
+            <button class="bg-lime-400 p-2 text-4xl rounded-full w-10">
+                <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 20V4M12 4L6 10M12 4L18 10" stroke="#000000" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
             </button>
             <section>
-                <p>
-                    [40.7128° N, 74.0060° W]
+                <p class="text-right text-sm">
+                    [40.7128° N, 74.0060° W] <br>
                     HQ - THE UNDERGROUND
                 </p>
             </section>
